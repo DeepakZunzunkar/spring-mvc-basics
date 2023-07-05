@@ -31,7 +31,7 @@ public class HomeController {
 //		Model is used to set data in http session. 	
 //		model.addAttribute("key","value")
 		
-		model.addAttribute("name","ankush chaurassiya");
+		model.addAttribute("name","suresh chaurassiya");
 		
 		List<String> list = new ArrayList<String>();
 		list.add("aman");
@@ -52,7 +52,7 @@ public class HomeController {
 		
 		ModelAndView modelAndView=new ModelAndView(); 
 		
-		modelAndView.addObject("name","ankush chaurassiya");
+		modelAndView.addObject("name","Ramesh chaurassiya");
 		
 		List<String> list = new ArrayList<String>();
 		list.add("aman");
