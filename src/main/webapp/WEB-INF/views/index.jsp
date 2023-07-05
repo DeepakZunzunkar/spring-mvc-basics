@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Welcome to Home</title>
+<title>Index | </title>
 </head>
 <body>
-    <h1>I AM Alive ..</h1>
+    <h1>welcome to index page ..</h1>
 </body>
 </html>
