@@ -44,4 +44,25 @@ public class HomeController {
 	}
 	
 	
+	@RequestMapping("testmodelandview")
+	public ModelAndView tesModelAndView() {
+		
+//		ModelAndView is used to set data in http session. 	
+//		modelAndView.addObject("key","value")
+		
+		ModelAndView modelAndView=new ModelAndView(); 
+		
+		modelAndView.addObject("name","ankush chaurassiya");
+		
+		List<String> list = new ArrayList<String>();
+		list.add("aman");
+		list.add("chaman");
+		list.add("changan");
+		
+		modelAndView.addObject("friends",list);
+		modelAndView.setViewName("model-view-responce-page");
+		
+		return modelAndView;
+	}
+	
 }
